@@ -40,13 +40,13 @@ const Home = () => {
       </button>
 
       <Modal
-        className=""
+        className="lg:w-[40%] md:w-[60%] w-[80%] max-h-3/4 bg-white rounded-md mx-auto mt-14 p-5 overflow-scroll"
         contentLabel=""
         isOpen={openAddEditModal.isShown}
         onRequestClose={() => {}}
         style={{
           overlay: {
-            backgroundColor: 'rgba(0, 0, 0, 0.2)',
+            backgroundColor: 'rgba(0, 0, 0, 0.5)',
           },
         }}
       >
